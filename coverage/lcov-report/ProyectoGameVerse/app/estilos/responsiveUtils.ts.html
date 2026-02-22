@@ -3,15 +3,15 @@
 <html lang="en">
 
 <head>
-    <title>Code coverage report for app/estilos/responsiveUtils.ts</title>
+    <title>Code coverage report for ProyectoGameVerse/app/estilos/responsiveUtils.ts</title>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="../../prettify.css" />
-    <link rel="stylesheet" href="../../base.css" />
-    <link rel="shortcut icon" type="image/x-icon" href="../../favicon.png" />
+    <link rel="stylesheet" href="../../../prettify.css" />
+    <link rel="stylesheet" href="../../../base.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="../../../favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <style type='text/css'>
         .coverage-summary .sorter {
-            background-image: url(../../sort-arrow-sprite.png);
+            background-image: url(../../../sort-arrow-sprite.png);
         }
     </style>
 </head>
@@ -19,34 +19,34 @@
 <body>
 <div class='wrapper'>
     <div class='pad1'>
-        <h1><a href="../../index.html">All files</a> / <a href="index.html">app/estilos</a> responsiveUtils.ts</h1>
+        <h1><a href="../../../index.html">All files</a> / <a href="index.html">ProyectoGameVerse/app/estilos</a> responsiveUtils.ts</h1>
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">24% </span>
+                <span class="strong">0% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>6/25</span>
+                <span class='fraction'>0/25</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">8.33% </span>
+                <span class="strong">0% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>1/12</span>
+                <span class='fraction'>0/12</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">25% </span>
+                <span class="strong">0% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>1/4</span>
+                <span class='fraction'>0/4</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">25% </span>
+                <span class="strong">0% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>5/20</span>
+                <span class='fraction'>0/20</span>
             </div>
         
             
@@ -107,7 +107,7 @@
 <a name='L42'></a><a href='#L42'>42</a>
 <a name='L43'></a><a href='#L43'>43</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -118,18 +118,18 @@
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
@@ -149,7 +149,7 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import { Dimensions, useWindowDimensions } from "react-native";
 &nbsp;
-export const getResponsiveValue = <span class="fstat-no" title="function not covered" >(</span>
+export const getResponsiveValue = <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >(</span></span>
   small: number,
   medium: number,
   large: number,
@@ -160,18 +160,18 @@ export const getResponsiveValue = <span class="fstat-no" title="function not cov
 <span class="cstat-no" title="statement not covered" >  return large;</span>
 };
 &nbsp;
-export const getColumnsForWidth = (width: number): number =&gt; {
-  <span class="missing-if-branch" title="else path not taken" >E</span>if (width &lt; 480) return 2; // Móvil pequeño
+export const getColumnsForWidth = <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >(w</span>idth: number): number =&gt; {</span>
+<span class="cstat-no" title="statement not covered" >  if (width &lt; 480) <span class="cstat-no" title="statement not covered" >return 2; </span></span>// Móvil pequeño
 <span class="cstat-no" title="statement not covered" >  if (width &lt; 768) <span class="cstat-no" title="statement not covered" >return 3; </span></span>// Tablet pequeña
 <span class="cstat-no" title="statement not covered" >  if (width &lt; 1024) <span class="cstat-no" title="statement not covered" >return 4; </span></span>// Tablet
 <span class="cstat-no" title="statement not covered" >  return 5; </span>// Desktop
 };
 &nbsp;
-export const getMainCardDirection = <span class="fstat-no" title="function not covered" >(w</span>idth: number): "row" | "column" =&gt; {
+export const getMainCardDirection = <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >(w</span>idth: number): "row" | "column" =&gt; {</span>
 <span class="cstat-no" title="statement not covered" >  return width &lt; 768 ? "column" : "row";</span>
 };
 &nbsp;
-export const useResponsiveDimensions = <span class="fstat-no" title="function not covered" >()</span> =&gt; {
+export const useResponsiveDimensions = <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >()</span> =&gt; {</span>
   const { width, height } = <span class="cstat-no" title="statement not covered" >useWindowDimensions();</span>
   const columns = <span class="cstat-no" title="statement not covered" >getColumnsForWidth(width);</span>
   const cardWidth = <span class="cstat-no" title="statement not covered" >(width - 60) / columns;</span>
@@ -196,16 +196,16 @@ export const useResponsiveDimensions = <span class="fstat-no" title="function no
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2026-02-22T21:12:24.613Z
+                at 2026-02-22T21:14:30.077Z
             </div>
-        <script src="../../prettify.js"></script>
+        <script src="../../../prettify.js"></script>
         <script>
             window.onload = function () {
                 prettyPrint();
             };
         </script>
-        <script src="../../sorter.js"></script>
-        <script src="../../block-navigation.js"></script>
+        <script src="../../../sorter.js"></script>
+        <script src="../../../block-navigation.js"></script>
     </body>
 </html>
     
