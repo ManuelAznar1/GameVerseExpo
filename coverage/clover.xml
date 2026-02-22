@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1771782454293" clover="3.2.0">
+  <project timestamp="1771782454293" name="All files">
+    <metrics statements="14" coveredstatements="11" conditionals="46" coveredconditionals="22" methods="6" coveredmethods="2" elements="66" coveredelements="35" complexity="0" loc="14" ncloc="14" packages="3" files="3" classes="3"/>
+    <package name="app">
+      <metrics statements="4" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="4" coveredmethods="0"/>
+      <file name="themeContext.js" path="D:\ManuelAznarPractica3ListaProductos\ProyectoGameVerse\app\themeContext.js">
+        <metrics statements="4" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="12" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.componentes">
+      <metrics statements="8" coveredstatements="8" conditionals="44" coveredconditionals="22" methods="2" coveredmethods="2"/>
+      <file name="card.tsx" path="D:\ManuelAznarPractica3ListaProductos\ProyectoGameVerse\app\componentes\card.tsx">
+        <metrics statements="8" coveredstatements="8" conditionals="44" coveredconditionals="22" methods="2" coveredmethods="2"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="77" count="2" type="stmt"/>
+        <line num="80" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.estilos">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="cardStyles.ts" path="D:\ManuelAznarPractica3ListaProductos\ProyectoGameVerse\app\estilos\cardStyles.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
